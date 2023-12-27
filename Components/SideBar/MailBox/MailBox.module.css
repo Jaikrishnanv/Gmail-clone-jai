@@ -1,0 +1,87 @@
+.form {
+  width: 30vw;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  /* display: flex;
+  flex-direction: column; */
+  background: rgb(249, 249, 248);
+  /* padding: 20px; */
+  /* width: fit-content; */
+  border: 3px solid rgb(249, 249, 249);
+  box-shadow: -2px -2px 3px 1px rgba(247, 248, 246, 0.561);
+
+}
+.formArea{
+    padding: 20px;
+    padding-bottom: 5px;
+
+}
+ .formItems {
+   width: 80%;
+   display: block;
+  padding: 7px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.616);
+  border: none;
+
+  outline:2px solid rgb(244, 247, 244);
+ 
+  font-weight: bolder;
+  font-size: large;
+  }
+  .formButton{
+    width: 100%;
+    display: block;
+    padding: 7px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: rgba(124, 174, 239, 0.616);
+  outline:2px solid rgb(101, 124, 239);
+  font-weight: bolder;
+  font-size: large;
+}
+.formButton:hover{
+background-color:#1bb8305d;
+font-size: larger;
+color: green;
+font-weight: bolder;
+
+;
+}
+
+.textArea{
+  display: block;
+  width:100%;
+  font-size: large;
+  resize: none;
+  height: 200px;
+  min-height:2em;
+  overflow-y:auto;
+  background-color: rgba(255, 255, 255, 0.616);
+
+  outline:2px solid green;
+
+}
+/*
+.description {
+  min-height: 30vh;
+  overflow-y: auto;
+}
+.form > button {
+  margin-top: 10px;
+} */
+
+.mailBoxHeader{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  background-color: rgba(245, 247, 245, 0.63);
+}

@@ -1,0 +1,25 @@
+.compose {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+  border-radius: 40px;
+  background: none;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  width: 150px;
+  justify-content: space-evenly;
+}
+
+.compose > span {
+  font-size: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.compose > h3 {
+  font-family: 'Google Sans', Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  margin: 0px 10px;
+  color: #3c4043;
+}

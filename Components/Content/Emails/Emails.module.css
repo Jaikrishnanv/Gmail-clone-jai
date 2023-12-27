@@ -1,0 +1,90 @@
+.list {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.list:hover {
+  background-color: #f6f7f68c;
+  border: 3px solid rgb(244, 247, 242);
+  box-shadow: px 2px 5px 2px rgba(55, 194, 0, 0.561);
+  color: rgb(241, 241, 241);
+  font-weight: bolder;
+}
+
+.svg {
+  width: 2em;
+  height: 2em;
+  cursor: pointer;
+}
+
+.svgStar {
+  fill: red;
+  width: 2em;
+  height: 2em;
+  cursor: pointer;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.company {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.company > h3 {
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-left: 20px;
+  flex-grow: 1;
+}
+.company > h4 {
+  flex-grow: 3;
+}
+.company > p {
+  padding-right: 10px;
+}
+.hideIcons > button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  width: 30px;
+  margin-right: 20px; 
+}
+.button {
+  margin-left: 10px;
+  background: none;
+  border: none;
+
+}
+.button:hover {
+  background:inherit;
+}
+
+
+
+.btnLeft{
+  width: 30px;
+  height: 25px;
+
+}
+
+
+.middle {
+  display: grid;
+ grid-template-columns: 135px auto;
+  
+}
+.middle > h3 {
+  margin-left: 40px;
+}
+.middle > h4 {
+  margin-left: 100px;
+}
+

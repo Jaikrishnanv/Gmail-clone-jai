@@ -1,0 +1,45 @@
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headchecker > button {
+  cursor: pointer;
+  padding: 10px;
+  background: none;
+  border: none;
+  margin: 0px 10px;
+  border-radius: 100px;
+  color: green;
+}
+.headchecker > button:hover {
+  background: rgba(16, 148, 16, 0.37);
+}
+
+.headchecker > button > img {
+  width: 14px;
+}
+
+.navigate {
+  display: flex;
+  margin-top: 15px;
+}
+.navigate > svg {
+  margin-right: 30px;
+}
+
+.navigate > button {
+  background: none;
+  border: none;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.headchecker {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.headchecker > input {
+  /* align-items: center; */
+}
